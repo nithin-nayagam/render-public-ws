@@ -4,7 +4,7 @@ const port = process.env.PORT || 3001;
 
 app.get("/", (req, res) => {
   res.setHeader('Content-Type', 'application/json');
-  res.end(JSON.stringify({ apps: ['whatsapp', 'instagram', 'salesforce'] }));
+  res.end(JSON.stringify({ apps: ['whatsapp', 'instagram', 'salesforce', 'sugarcrm'] }));
 });
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
