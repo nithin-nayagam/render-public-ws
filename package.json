@@ -1,0 +1,17 @@
+{
+  "name": "render-public-ws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "engines": {
+    "node": ">=12 <13"
+  }
+}
